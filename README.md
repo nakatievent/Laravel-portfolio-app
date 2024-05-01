@@ -1,7 +1,7 @@
 ## Laravel Sailの起動コマンド
 ./vendor/bin/sail up -d
 
-## ローカルページアクセス
+## ローカルページへアクセス
 http://localhost
 
 ## エイリアスの登録
@@ -19,3 +19,7 @@ sail mysql
 
 ## コンテナから出る
 exit
+
+## php artisan 〇〇を使う方法
+alias sail="./vendor/bin/sail"
+sail php artisan 〇〇
